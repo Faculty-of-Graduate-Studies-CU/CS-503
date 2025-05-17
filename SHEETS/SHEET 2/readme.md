@@ -20,12 +20,32 @@ Write a program to check if a person is eligible to vote.
 // have two solution for this problem one with if and another with for
 
 ### 3. What is the output of the following code?
- `` int a = 10;
+ ``` int a = 10;
     int b = 20;
     cout << (a > b ? a : b);
  a) 10
  b) 20 
  c) 30
  d) Error
- ``
- 
+ ```
+ ### 4. What is the output of the following code?
+```C++
+#include<iostream>
+using namespace std;
+int main(){
+ int num = 6;
+ if (num % 2 == 0) {
+ if (num % 3 == 0)
+ cout << "Divisible by 2 and 3";
+ else
+ cout << "Divisible by 2 only";
+} else {
+ cout << "Not divisible by 2";
+ }
+return 0;
+};
+```
+* Divisible by 2 and 3
+* Divisible by 2 only
+* Not divisible by 2
+* Error
