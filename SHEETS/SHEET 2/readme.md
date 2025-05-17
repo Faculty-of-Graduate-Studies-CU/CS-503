@@ -18,3 +18,14 @@ Write a program to check if a person is eligible to vote.
 * No 4 price 400
   
 // have two solution for this problem one with if and another with for
+
+### 3. What is the output of the following code?
+ `` int a = 10;
+    int b = 20;
+    cout << (a > b ? a : b);
+ a) 10
+ b) 20 
+ c) 30
+ d) Error
+ ``
+ 
