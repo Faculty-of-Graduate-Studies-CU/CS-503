@@ -49,3 +49,26 @@ return 0;
 * Divisible by 2 only
 * Not divisible by 2
 * Error
+ ### 5. What is the output of the following code?
+```
+#include<iostream>
+using namespace std;
+/*
+
+*/
+int main(){
+ int x = 7;
+ if (x > 5)
+ if (x < 10)
+ cout << "x is between 5 and 10";
+ else
+ cout << "x is greater than or equal to 10";
+ else
+ cout << "x is less than or equal to 5";
+return 0;
+};
+```
+- a)x is between 5 and 10
+- b) x is greater than or equal to 10
+- c) x is less than or equal to 5
+- d) Error
