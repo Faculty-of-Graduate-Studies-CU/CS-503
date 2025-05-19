@@ -6,3 +6,9 @@ Enter a positive integer: 5
 Factorial of 5= 120 
 
 ```
+### 2.Write a program in C++ to find the Greatest Common Divisor (GCD) of a number. 
+```
+Sample Output: 
+Input a number: 15 
+The Greatest Common Divisor is: 5
+```
